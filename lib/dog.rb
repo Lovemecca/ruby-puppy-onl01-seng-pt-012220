@@ -8,11 +8,11 @@ class Dog
 		@@all << self
 	end
 	
-	def self.create
-	  dog = save.new 
-	  dog.save
-	  dog
-	 end 
+# 	def self.create
+# 	  dog = save.new 
+# 	  dog.save
+# 	  dog
+# 	 end 
 	 
 	 def self.print_all
 	  @@all.each {|dog| puts "#{dog.name}"}
