@@ -14,7 +14,7 @@ class Dog
 	  dog
 	 end 
 	 
-	 def print_all
+	 def sel.print_all
 	   @@all << self
 	 end 
 	 
